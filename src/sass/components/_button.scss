@@ -1,0 +1,61 @@
+#logOutBtn{
+   float:right;
+}
+.completeBtn{
+   font-size: 16px;
+   color:limegreen;
+   text-align: center;
+   font-weight: bold;
+   border: none;
+   cursor: pointer;
+   float: right;
+   background-color: rgba(240, 240, 240, 0.3);
+   
+}
+.deleteBtn{
+   color :red;
+   border: none;
+   cursor:pointer;
+   overflow: hidden;
+   outline:none;
+   font-size: 16px;
+   float:right;
+   background-color: rgba(240, 240, 240, 0.3);
+}
+.historyBtn{
+   float:right;
+   background:none;
+   border:none;
+   font-size: 16px;
+   cursor: pointer;
+   background-color: rgba(240, 240, 240, 0.3);
+}
+
+
+.managerBtn {
+    position: relative;
+    vertical-align: top;
+    padding: 3px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#454545;
+    text-align: center;
+    background-color: rgba(240, 240, 240, 0.8);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1px;
+    margin-bottom: 10px;
+  }
+  
+
+  .biggerBtn{
+     width: 135px;
+  }
+  .bigBtn{
+   width: 100px;
+  }
+  .smallBtn{
+     width: 50px;
+  }

@@ -1,0 +1,17 @@
+#footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   height: 20px;
+   width: 100%;
+   background-color: #29487D;
+   background-color: rgba(41, 72, 125, 0.2);
+   color: white;
+   text-align: center;
+ }
+
+ @media only screen and (max-width: 600px) {
+   #footer {
+     display: none;
+   }
+ }

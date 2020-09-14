@@ -1,0 +1,20 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "This is a javascript training project",
+  "main": "index.html",
+  "scripts": {
+    "devserver": "live-server",
+    "watch:sass": "node-sass src/sass/main.scss src/css/style.css -w",
+    "watch:pug": "pug index.pug index.pug index.html -w",
+    "start": "npm-run-all --parallel devserver watch:pug watch:sass"
+  },
+  "keywords": [],
+  "author": "Khaled",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.1",
+    "prettier": "^2.1.1"
+  }
+}

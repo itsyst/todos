@@ -1,0 +1,152 @@
+body {
+  background-image: linear-gradient(to right, #37B9E9, #37A5E9, #9CBCB4); }
+
+.divAdd {
+  padding: 10px; }
+
+.divLeftTodo {
+  flex: 0 0 80%; }
+
+.divLeft {
+  flex: 0 0 65%; }
+
+.divRight {
+  flex: 1; }
+
+#todoList {
+  padding: 0px;
+  width: 50%;
+  color: black; }
+
+li {
+  list-style: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 18px;
+  width: 700px;
+  display: inline-block;
+  background-color: rgba(240, 240, 240, 0.15);
+  color: white;
+  margin: 1px;
+  padding: 5px;
+  border-radius: 5px; }
+
+input {
+  margin: 1px;
+  border: none;
+  border-radius: 0px;
+  width: 150px;
+  height: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 14px;
+  border-radius: 8px; }
+
+.userInfo {
+  color: white;
+  background-color: rgba(1, 1, 1, 0.1);
+  border-radius: 5px;
+  height: 70%;
+  width: 60%;
+  padding: 10px;
+  float: right;
+  margin-right: 4px;
+  margin-top: 16px;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif; }
+
+#info {
+  color: white;
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 15%;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 20px; }
+
+#bigContainer {
+  border-radius: 5px;
+  background-color: #84CEEB; }
+
+.container {
+  display: flex;
+  padding: 10px; }
+
+#header {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: white;
+  margin-left: 100px; }
+
+.menu {
+  background-color: #29487D;
+  opacity: 0.75; }
+
+#logOutBtn {
+  float: right; }
+
+.completeBtn {
+  font-size: 16px;
+  color: limegreen;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  float: right;
+  background-color: rgba(240, 240, 240, 0.3); }
+
+.deleteBtn {
+  color: red;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 16px;
+  float: right;
+  background-color: rgba(240, 240, 240, 0.3); }
+
+.historyBtn {
+  float: right;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgba(240, 240, 240, 0.3); }
+
+.managerBtn {
+  position: relative;
+  vertical-align: top;
+  padding: 3px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #454545;
+  text-align: center;
+  background-color: rgba(240, 240, 240, 0.8);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 1px;
+  margin-bottom: 10px; }
+
+.biggerBtn {
+  width: 135px; }
+
+.bigBtn {
+  width: 100px; }
+
+.smallBtn {
+  width: 50px; }
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 20px;
+  width: 100%;
+  background-color: #29487D;
+  background-color: rgba(41, 72, 125, 0.2);
+  color: white;
+  text-align: center; }
+
+@media only screen and (max-width: 600px) {
+  #footer {
+    display: none; } }

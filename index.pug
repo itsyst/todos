@@ -1,0 +1,44 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale = 1.0")
+    meta(http-equiv="X-UA-Compatible" content="ie=edge")
+    link(rel="stylesheet" href="/src/css/style.css")
+    title TODOS
+  body
+    #bigContainer
+      .container.menu
+        .divLeft
+          input#registerInputName(type="text" placeholder="Name...")
+          input#registerInputEmail(type="text" placeholder="Email...")
+          button#registerBtn.managerBtn.bigBtn Sign up
+          p#info
+        .divRight
+          input#loginInput(type="text" placeholder="Email...")
+          button#loginbtn.managerBtn.bigBtn.loginBtn  Log in 
+          button#logOutBtn.managerBtn.bigBtn Log out
+      #addTodos.container
+        .divLeft.divAdd
+          h1#header  Things to do 
+          input#inputItemToList(type="text" placeholder="Activity name...")
+          input#inputPrioItem(type="text" placeholder="Prio 1-5")
+          input#inputEstimatedTime(type="text" placeholder="Estimated Hours")
+          button#addToListBtn.managerBtn.smallBtn Add
+          button#sort-button.managerBtn.smallBtn Sort
+          button#changePrio.managerBtn.biggerBtn  Change priority
+        .userInfo.divRight
+          p#userName(style="color:white") Username: 
+          p#userEmail(style="color:white") E-mail: 
+          p#userTodos(style="color:white") Todos: 
+    .container
+      .divLeftTodo
+        ul#todoList  
+      #history.divRight.userInfo
+        p#dateComplete Date completed: 
+        p#dateCreated Date created: 
+        p#timeSpent Time spent: 
+        p#priorityChanges Amount of priority changes: 
+    p#footer TUC - Linköping ©2019 Team Blå SYNE19
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js")
+    script(src="/src/js/index.js")
