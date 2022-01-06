@@ -1,5 +1,14 @@
+*{
+   font-family: fira code,
+   'Franklin Gothic Medium',
+   'Arial Narrow',
+   sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
 body{
-   background-image: linear-gradient(to right,#37B9E9, #37A5E9, #9CBCB4);
+   background-image: linear-gradient(to right, #b06cf0, #bb89e9, #ebe6f0 );
 }
 
 .divAdd{
@@ -22,6 +31,7 @@ body{
     width: 50%;
     color: black;
  }
+ 
  li{
    list-style:none;
    font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -39,7 +49,7 @@ body{
 
 
 input{
-   margin: 1px;
+   margin: 6px;
    border: none;
    border-radius: 0px;
    width: 150px;
